@@ -1,0 +1,15 @@
+[user]
+	name = Peter Mescalchin
+	email = magnetik@dev
+
+[core]
+	autocrlf = input
+
+[color]
+	ui = true
+
+[format]
+	pretty = format:%C(red)%h%C(reset) - %s %C(green)- %an%C(reset) %C(yellow)(%ar)%C(reset)
+
+[diff]
+	tool = meld
