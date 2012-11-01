@@ -1,0 +1,18 @@
+# ~/.bashrcmagnetik
+# called from ~/.bashrc as [ . ~/.bashrcmagnetik ]
+
+
+umask 022
+
+
+# application shortcuts
+alias g='geany'
+alias m='meld'
+alias n='nano'
+alias s='sublime-text'
+
+
+# utility commands
+alias mag-findcrlf='grep -lIUrP "\r" .'
+alias mag-fixfileperms='chmod -R a-rwx,a+rX,u+w . && find . -name "*.sh" -print0 | xargs -0r chmod 0744'
+alias mag-sysupdate='sudo apt-get update && sudo apt-get upgrade'
