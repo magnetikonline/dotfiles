@@ -9,8 +9,9 @@
 [color]
 	ui = true
 
-[format]
-	pretty = format:%C(red)%h%C(reset) - %s %C(green)- %an%C(reset) %C(yellow)(%ar)%C(reset)
-
 [diff]
 	tool = meld
+
+[alias]
+	lg = log --pretty=format:'%C(red)%h%C(green) - %s - %C(yellow)(%ar)%C(green) <%an>'
+	st = status -sb
