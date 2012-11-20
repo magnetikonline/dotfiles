@@ -13,5 +13,6 @@
 	tool = meld
 
 [alias]
+	da = difftool -d
 	lg = log --pretty=format:'%C(red)%h%C(green) - %s - %C(yellow)(%ar)%C(green) <%an>'
 	st = status -sb
