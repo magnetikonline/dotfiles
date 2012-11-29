@@ -14,5 +14,6 @@
 
 [alias]
 	da = difftool -d
-	lg = log --pretty=format:'%C(red)%h%C(green) - %s - %C(yellow)(%ar)%C(green) <%an>'
+	lg = log --pretty=format:'%C(red)%h%C(reset) - %s - %C(yellow)(%ar)%C(reset) <%an>'
+	lt = ls-tree -r --abbrev=6 --full-tree HEAD
 	st = status -sb
