@@ -14,6 +14,7 @@
 
 [alias]
 	da = difftool -d
+	dac = difftool -d --cached
 	lg = log --graph --pretty=format:'%C(red)%h%C(reset) - %s - %C(yellow)(%ar)%C(reset) <%an>'
 	lt = ls-tree -r --abbrev=6 --full-tree HEAD
 	st = status -sb
