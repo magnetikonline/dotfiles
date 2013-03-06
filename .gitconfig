@@ -12,6 +12,9 @@
 [diff]
 	tool = meld
 
+[push]
+	default = simple
+
 [alias]
 	da = difftool -d
 	dac = difftool -d --cached
