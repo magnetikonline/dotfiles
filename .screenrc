@@ -1,0 +1,4 @@
+caption always "%{= kw}%-w%{= rw}%n %t%{-}%+w %-="
+defscrollback 30000
+escape ^Aa
+vbell off
