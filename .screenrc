@@ -1,4 +1,5 @@
 caption always "%{= kw}%-w%{= rw}%n %t%{-}%+w %-="
 defscrollback 30000
 escape ^Aa
+startup_message off
 vbell off
