@@ -1,0 +1,12 @@
+{
+	"auto_complete": false,
+	"auto_match_enabled": false,
+	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"default_line_ending": "unix",
+	"ensure_newline_at_eof_on_save": true,
+	"font_size": 9.0,
+	"scroll_past_end": true,
+	"tab_completion": false,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": false
+}
