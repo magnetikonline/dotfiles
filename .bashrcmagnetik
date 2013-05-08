@@ -9,7 +9,17 @@ umask 022
 alias g='geany'
 alias m='meld'
 alias n='nano'
-alias s='sublime-text'
+
+execsublime() {
+
+	if [ ! `pidof sublime_text` ]; then
+		sublime-text $@ &
+		sleep 1
+	else
+		sublime-text $@
+	fi
+}
+alias s=execsublime
 
 
 # utility commands
