@@ -10,10 +10,15 @@ alias g='geany'
 alias m='meld'
 alias n='nano'
 
+
+function bg_cmd() {
+  { "$@" & } >/dev/null 2>&1
+  disown
+}
 execsublime() {
 
 	if [ ! `pidof sublime_text` ]; then
-		sublime-text $@ &
+		bg_cmd sublime-text "$@"
 		sleep 1
 	else
 		sublime-text $@
