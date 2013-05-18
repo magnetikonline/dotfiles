@@ -22,6 +22,7 @@ execsublime() {
 }
 alias s=execsublime
 
+alias tigs='tig status'
 
 # utility commands
 alias mag-findcrlf='grep -IlPrU "\r" .'
