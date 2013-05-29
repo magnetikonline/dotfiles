@@ -8,5 +8,16 @@
 	"scroll_past_end": true,
 	"tab_completion": false,
 	"trim_trailing_white_space_on_save": true,
-	"word_wrap": false
+	"word_wrap": false,
+
+	"todo": {
+		"core_patterns": {
+			"TODO": "TODO\\s*?:+((?P<todo>.*?)(\\s+(\\*/|-->))?)$"
+			//"NOTE": "NOTE\\s*?:+((?P<note>.*?)(\\s+(\\*/|-->))?)$",
+			//"FIXME": "FIX ?ME\\s*?:+((?P<fixme>.*?)(\\s+(\\*/|-->))?)$",
+			//"CHANGED": "CHANGED\\s*?:+((?P<changed>.*?)(\\s+(\\*/|-->))?)$"
+		},
+		"case_sensitive": true,
+		"result_title": "TODO Results"
+	}
 }
