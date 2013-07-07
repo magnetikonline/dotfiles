@@ -17,6 +17,7 @@
 	default = simple
 
 [alias]
+	adda = add -u :/
 	ba = branch -a
 	da = difftool -d
 	dac = difftool -d --cached
