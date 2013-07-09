@@ -1,6 +1,6 @@
 [user]
-	name = Peter Mescalchin
 	email = peter@magnetikonline.com.au
+	name = Peter Mescalchin
 
 [core]
 	autocrlf = input
@@ -12,6 +12,10 @@
 
 [diff]
 	tool = meld
+
+[grep]
+	extendedregexp = true
+	linenumber = true
 
 [push]
 	default = simple
