@@ -1,17 +1,28 @@
 {
 	"auto_complete": false,
 	"auto_match_enabled": false,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*.svg"
+	],
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"default_line_ending": "unix",
 	"ensure_newline_at_eof_on_save": true,
-	"font_face": "Ubuntu Mono",
-	"font_size": 10.0,
-	"scroll_past_end": true,
-	"tab_completion": false,
-	"trim_trailing_white_space_on_save": true,
-	"word_wrap": false,
-
-	"file_exclude_patterns": [
+	"file_exclude_patterns":
+	[
 		"*.pyc",
 		"*.pyo",
 		"*.exe",
@@ -33,15 +44,22 @@
 		"*.db",
 		"*.sublime-workspace"
 	],
-
-	"todo": {
-		"core_patterns": {
+	"font_face": "Ubuntu Mono",
+	"font_size": 10.0,
+	"scroll_past_end": true,
+	"tab_completion": false,
+	"todo":
+	{
+		"case_sensitive": true,
+		"core_patterns":
+		{
 			"TODO": "TODO\\s*?:+((?P<todo>.*?)(\\s+(\\*/|-->))?)$"
 			//"NOTE": "NOTE\\s*?:+((?P<note>.*?)(\\s+(\\*/|-->))?)$",
 			//"FIXME": "FIX ?ME\\s*?:+((?P<fixme>.*?)(\\s+(\\*/|-->))?)$",
 			//"CHANGED": "CHANGED\\s*?:+((?P<changed>.*?)(\\s+(\\*/|-->))?)$"
 		},
-		"case_sensitive": true,
 		"result_title": "TODO Results"
-	}
+	},
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": false
 }
