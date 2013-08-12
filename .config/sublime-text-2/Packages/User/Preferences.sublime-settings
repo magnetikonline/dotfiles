@@ -16,7 +16,8 @@
 		"*.swf",
 		"*.jar",
 		"*.zip",
-		"*.svg"
+		"*.svg",
+		"*.woff"
 	],
 	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
 	"default_line_ending": "unix",
@@ -42,6 +43,7 @@
 		"*.class",
 		"*.psd",
 		"*.db",
+		"*.sublime-project",
 		"*.sublime-workspace"
 	],
 	"font_face": "Ubuntu Mono",
