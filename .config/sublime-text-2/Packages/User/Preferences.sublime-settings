@@ -43,6 +43,7 @@
 		"*.class",
 		"*.psd",
 		"*.db",
+		"*.css.map",
 		"*.sublime-project",
 		"*.sublime-workspace"
 	],
