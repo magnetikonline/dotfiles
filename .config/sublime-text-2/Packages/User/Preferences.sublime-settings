@@ -58,10 +58,10 @@
 		"case_sensitive": true,
 		"core_patterns":
 		{
-			"TODO": "TODO\\s*?:+((?P<todo>.*?)(\\s+(\\*/|-->))?)$"
-			//"NOTE": "NOTE\\s*?:+((?P<note>.*?)(\\s+(\\*/|-->))?)$",
-			//"FIXME": "FIX ?ME\\s*?:+((?P<fixme>.*?)(\\s+(\\*/|-->))?)$",
-			//"CHANGED": "CHANGED\\s*?:+((?P<changed>.*?)(\\s+(\\*/|-->))?)$"
+			"TODO": "TODO\\s*?:+(?P<todo>.*?)(\\s+(\\*/|-->))?$"
+			//"NOTE": "NOTE\\s*?:+(?P<note>.*?)(\\s+(\\*/|-->))?$",
+			//"FIXME": "FIX ?ME\\s*?:+(?P<fixme>.*?)(\\s+(\\*/|-->))?$",
+			//"CHANGED": "CHANGED\\s*?:+(?P<changed>.*?)(\\s+(\\*/|-->))?$"
 		},
 		"result_title": "TODO Results"
 	},
