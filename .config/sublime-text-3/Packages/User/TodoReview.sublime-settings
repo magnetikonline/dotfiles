@@ -1,0 +1,13 @@
+{
+	"patterns": {
+		"TODO": "TODO\\s*?:+(?P<todo>.*?)(\\s+(\\*/|-->))?$"
+	},
+	"exclude_folders": [
+		".git"
+	],
+	"exclude_files": [
+		"*.css",
+		"*.sublime-workspace"
+	],
+	"case_sensitive": true
+}

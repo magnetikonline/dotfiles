@@ -1,4 +1,0 @@
-[
-	{ "keys": ["ctrl+space"], "command": "auto_complete" },
-	{ "keys": ["ctrl+shift+o"], "command": "todo" }
-]

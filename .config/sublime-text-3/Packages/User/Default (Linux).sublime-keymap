@@ -1,0 +1,4 @@
+[
+	{ "keys": ["ctrl+shift+o"], "command": "todo_review" },
+	{ "keys": ["ctrl+space"], "command": "auto_complete" }
+]

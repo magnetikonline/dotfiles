@@ -1,5 +1,4 @@
 {
-	"show_line_endings_on_status_bar" : true,
 	"alert_when_line_ending_is": ["Windows"],
 	"auto_convert_line_endings_to": "Unix"
 }

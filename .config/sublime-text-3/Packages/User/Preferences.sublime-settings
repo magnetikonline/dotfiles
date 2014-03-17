@@ -3,6 +3,7 @@
 	"auto_match_enabled": false,
 	"binary_file_patterns":
 	[
+		// default
 		"*.jpg",
 		"*.jpeg",
 		"*.png",
@@ -16,6 +17,7 @@
 		"*.swf",
 		"*.jar",
 		"*.zip",
+		// additions
 		"*.svg",
 		"*.woff"
 	],
@@ -24,6 +26,7 @@
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns":
 	[
+		// default
 		"*.pyc",
 		"*.pyo",
 		"*.exe",
@@ -43,24 +46,16 @@
 		"*.class",
 		"*.psd",
 		"*.db",
+		"*.sublime-workspace",
+		// additions
 		"*.css.map",
-		"*.sublime-project",
-		"*.sublime-workspace"
+		"*.sublime-project"
 	],
 	"font_face": "Ubuntu Mono",
 	"font_size": 10.0,
-	"scroll_past_end": true,
+	"show_line_endings": true,
 	"tab_completion": false,
 	"theme": "Flatland Dark.sublime-theme",
-	"todo":
-	{
-		"case_sensitive": true,
-		"core_patterns":
-		{
-			"TODO": "TODO\\s*?:+\\s*(?P<todo>.*?)(\\s+(\\*/|-->))?$"
-		},
-		"result_title": "TODO Results"
-	},
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": false
 }
