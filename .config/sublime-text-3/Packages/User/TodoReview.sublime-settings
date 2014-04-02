@@ -3,7 +3,7 @@
 		"TODO": "TODO\\s*?:+(?P<todo>.*?)(\\s+(\\*/|-->))?$"
 	},
 	"exclude_folders": [
-		".git"
+		"*.git*"
 	],
 	"exclude_files": [
 		"*.css",
