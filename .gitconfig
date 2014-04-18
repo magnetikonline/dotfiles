@@ -26,7 +26,7 @@
 	da = difftool -d
 	dac = difftool -d --cached
 	gr = grep --break --heading
-	lg = log --graph --pretty=format:'%C(red)%h%C(reset) - %s - %C(yellow)(%ar)%C(reset) <%an>'
+	lg = log --graph --pretty=format:'%C(red)%h%C(reset) - %C(green)%s%C(reset) - %C(yellow)(%ar)%C(reset) <%an>'
 	lt = ls-tree -lr --abbrev=6 --full-tree HEAD
 	mergenc = merge --no-commit --no-ff
 	mergesq = merge --squash
