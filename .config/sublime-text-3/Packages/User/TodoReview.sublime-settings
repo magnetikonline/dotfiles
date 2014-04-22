@@ -1,6 +1,6 @@
 {
 	"patterns": {
-		"TODO": "TODO\\s*?:+(?P<todo>.*?)(\\s+(\\*/|-->))?$"
+		"TODO": "TODO\\s*?:+(?P<todo>.*?)(?:\\s+(?:\\*/|-->|\\?>))?$"
 	},
 	"exclude_folders": [
 		"*.git*"
