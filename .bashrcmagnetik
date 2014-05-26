@@ -21,6 +21,10 @@ alias tigs='tig status'
 
 # utility commands
 alias mag-findcrlf='grep -IlPrU "\r" .'
-alias mag-fixfileperms='chmod -R a-rwx,a+rX,u+w . && find . -name "*.sh" -print0 | xargs -0r chmod 0744'
+
+alias mag-fixfileperms='chmod -R a-rwx,a+rX,u+w . \
+	&& find . -name "*.sh" -print0 | xargs -0r chmod 0744 \
+	&& find . -name "*.id_rsa" -print0 | xargs -0r chmod 0600'
+
 alias mag-shutdown='sudo shutdown now -P'
 alias mag-sysupdate='sudo apt-get update && sudo apt-get upgrade'
