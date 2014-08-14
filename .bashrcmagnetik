@@ -2,7 +2,7 @@
 # called from ~/.bashrc as [ . ~/.bashrcmagnetik ]
 
 
-umask 022
+umask 0022
 
 
 # colored shell prompt with Git branch details
