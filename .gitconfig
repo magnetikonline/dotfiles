@@ -22,7 +22,7 @@
 
 [alias]
 	adda = add -u :/
-	ba = branch -av
+	ba = branch -avv
 	da = difftool -d
 	dac = difftool -d --cached
 	gr = grep --break --heading
