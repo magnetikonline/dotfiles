@@ -1,8 +1,7 @@
 {
 	"auto_complete": false,
 	"auto_match_enabled": false,
-	"binary_file_patterns":
-	[
+	"binary_file_patterns": [
 		// default
 		"*.jpg",
 		"*.jpeg",
@@ -24,8 +23,7 @@
 	"color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme",
 	"default_line_ending": "unix",
 	"ensure_newline_at_eof_on_save": true,
-	"file_exclude_patterns":
-	[
+	"file_exclude_patterns": [
 		// default
 		"*.pyc",
 		"*.pyo",
@@ -53,6 +51,13 @@
 	],
 	"font_face": "Ubuntu Mono",
 	"font_size": 10.0,
+	"ignored_packages": [
+		"Vintage",
+		"SHS-Bourbon",
+		"SHS-Bourbon-Neat",
+		"SHS-Compass-Mixins",
+		"SHS-Compass-Variables"
+	],
 	"show_line_endings": true,
 	"tab_completion": false,
 	"theme": "Flatland Dark.sublime-theme",
