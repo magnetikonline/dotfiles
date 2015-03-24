@@ -12,7 +12,7 @@ List of packages I'm using with Sublime Text 3:
 - [LineEndings](https://github.com/SublimeText/LineEndings)
 - [Nginx](https://github.com/brandonwamboldt/sublime-nginx)
 - SCSS
-	- [Current](https://github.com/P233/Syntax-highlighting-for-Sass)
+	- [Current](https://github.com/P233/Syntax-highlighting-for-Sass/tree/3.0)
 	- [Previous](https://github.com/MarioRicalde/SCSS.tmbundle/tree/SublimeText2)
 - [Theme - Flatland](https://github.com/thinkpixellab/flatland)
 - [TodoReview](https://github.com/jonathandelgado/SublimeTodoReview)
