@@ -58,7 +58,10 @@
 		"SHS-Compass-Mixins",
 		"SHS-Compass-Variables"
 	],
-	"indent_guide_options": ["draw_active","draw_normal"],
+	"indent_guide_options": [
+		"draw_active",
+		"draw_normal"
+	],
 	"show_line_endings": true,
 	"tab_completion": false,
 	"theme": "Flatland Dark.sublime-theme",

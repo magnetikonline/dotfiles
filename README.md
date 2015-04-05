@@ -9,7 +9,7 @@ Probably the only things of note here at the moment are:
 ## Sublime Text 3 installed packages
 List of packages I'm using with Sublime Text 3:
 - [GitGutter](https://github.com/jisaacks/GitGutter)
-- [LineEndings](https://github.com/SublimeText/LineEndings)
+- [LineEndings](https://github.com/titoBouzout/LineEndings)
 - [Nginx](https://github.com/brandonwamboldt/sublime-nginx)
 - SCSS
 	- [Current](https://github.com/P233/Syntax-highlighting-for-Sass/tree/3.0)
