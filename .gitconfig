@@ -20,6 +20,9 @@
 [push]
 	default = simple
 
+[fetch]
+	prune = true
+
 [alias]
 	adda = add -u :/
 	archive-tgz = archive -v --format=tgz --output HEAD.tgz HEAD
