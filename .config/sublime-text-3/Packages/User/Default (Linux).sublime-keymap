@@ -1,4 +1,5 @@
 [
+	{ "keys": ["ctrl+shift+j"],"command": "reveal_in_side_bar" },
 	{ "keys": ["ctrl+shift+o"],"command": "todo_review" },
 	{ "keys": ["ctrl+space"],"command": "auto_complete" }
 ]
