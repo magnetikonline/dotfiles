@@ -25,8 +25,8 @@
 
 [alias]
 	adda = add -u :/
-	archive-tgz = archive -v --format=tgz --output HEAD.tgz HEAD
-	archive-zip = archive -v --format=zip --output HEAD.zip HEAD
+	archive-tgz = archive -v --format=tgz --output=HEAD.tgz HEAD
+	archive-zip = archive -v --format=zip --output=HEAD.zip HEAD
 	ba = branch -avv
 	da = difftool -d
 	dac = difftool -d --cached
