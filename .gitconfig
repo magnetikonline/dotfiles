@@ -6,6 +6,7 @@
 	autocrlf = input
 	excludesfile = ~/.gitignoreglobal
 	pager = less -x4
+	untrackedcache = true
 
 [color]
 	ui = true

@@ -50,13 +50,16 @@
 		"*.sublime-project"
 	],
 	"font_face": "Ubuntu Mono",
-	"font_size": 10.0,
+	"font_size": 9.0,
 	"ignored_packages": [
 		"Vintage",
 		"SHS-Bourbon",
 		"SHS-Bourbon-Neat",
 		"SHS-Compass-Mixins",
 		"SHS-Compass-Variables"
+	],
+	"ignored_words": [
+		"mixins"
 	],
 	"indent_guide_options": [
 		"draw_active",
