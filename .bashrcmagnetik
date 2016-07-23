@@ -32,4 +32,4 @@ alias mag-dockernukecontainers='docker ps -qf "status=exited" | xargs -L 1 -r do
 alias mag-dockernukeimagesuntagged='docker images -qf "dangling=true" | xargs -L 1 -r docker rmi'
 alias mag-findcrlf='grep -IlPrUe "\r" .'
 alias mag-shutdown='sudo shutdown now -P'
-alias mag-sysupdate='sudo apt-get update && sudo apt-get upgrade'
+alias mag-sysupdate='sudo apt update && sudo apt upgrade'
