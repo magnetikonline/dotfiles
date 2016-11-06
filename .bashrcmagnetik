@@ -31,5 +31,6 @@ alias mag-fixfileperms='chmod -R a-rwx,a+rX,u+w . \
 alias mag-dockernukecontainers='docker ps -qf "status=exited" | xargs -L 1 -r docker rm'
 alias mag-dockernukeimagesuntagged='docker images -qf "dangling=true" | xargs -L 1 -r docker rmi'
 alias mag-findcrlf='grep -IlPrUe "\r" .'
+alias mag-gitrebasesubl='EDITOR="subl -nw" git rebase --interactive'
 alias mag-shutdown='sudo shutdown now -P'
 alias mag-sysupdate='sudo apt update && sudo apt upgrade'
