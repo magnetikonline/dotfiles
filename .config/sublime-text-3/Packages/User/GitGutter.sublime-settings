@@ -1,5 +1,4 @@
 {
 	"live_mode": false,
-	"show_markers_on_untracked_file": true,
-	"show_status": "all"
+	"show_markers_on_untracked_file": true
 }
