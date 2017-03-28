@@ -1,4 +1,5 @@
 {
 	"live_mode": false,
-	"diff_popup_default_mode": "diff"
+	"diff_popup_default_mode": "diff",
+	"theme": "Bars.gitgutter-theme"
 }
