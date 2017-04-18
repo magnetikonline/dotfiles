@@ -25,7 +25,8 @@
 	prune = true
 
 [alias]
-	adda = add -u :/
+	adda = add --update :/
+	adda-cw = -c interactive.diffFilter=\"git diff --color-words\" add --update :/
 	archive-tgz = archive -v --format=tgz --output=HEAD.tgz HEAD
 	archive-zip = archive -v --format=zip --output=HEAD.zip HEAD
 	ba = branch -avv
@@ -33,7 +34,7 @@
 	dac = difftool -d --cached
 	gr = grep --break --heading
 	lg = log --graph --pretty=format:'%C(red)%h%C(reset) %C(green)%s%C(reset) - %C(yellow)(%ar)%C(reset) %C(blue)<%an>%C(reset)%d'
-	lt = ls-tree -lr --abbrev=6 --full-tree HEAD
+	lt = ls-tree -r --abbrev=6 --full-tree --long HEAD
 	mergenc = merge --no-commit --no-ff
 	mergesq = merge --squash
-	st = status -sb
+	st = status --branch --short
