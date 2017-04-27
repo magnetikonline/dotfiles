@@ -1,5 +1,5 @@
 # ~/.bashrcmagnetik
-# called from ~/.bashrc as [ . ~/.bashrcmagnetik ]
+# called from ~/.bashrc as [ . "$HOME/.bashrcmagnetik" ]
 
 
 umask 0022
@@ -24,12 +24,16 @@ alias tigs='tig status'
 
 
 # utility commands
-alias mag-fixfileperms='chmod -R a-rwx,a+rX,u+w . \
-	&& find . -type f -name "*.sh" -print0 | xargs -0r chmod 0744 \
-	&& find . -type f \( -name "id_rsa" -or -name "*.id_rsa" \) -print0 | xargs -0r chmod 0600'
+alias mag-fixfileperms='chmod -R a-rwx,a+rX,u+w . && \
+	find . -type f -name "*.sh" -print0 | xargs --no-run-if-empty --null -I{} chmod 0744 "{}" && \
+	find . -type f \( -name "id_rsa" -or -name "*.id_rsa" \) -print0 | xargs --no-run-if-empty --null -I{} chmod 0600 "{}"'
 
-alias mag-dockernukecontainers='docker ps -qf "status=exited" | xargs --no-run-if-empty -I{} docker rm "{}"'
-alias mag-dockernukeimagesuntagged='docker images -qf "dangling=true" | xargs --no-run-if-empty -I{} docker rmi "{}"'
+alias mag-dockernukecontainers='docker ps --filter "status=exited" --quiet | \
+	xargs --no-run-if-empty -I{} docker rm "{}"'
+
+alias mag-dockernukeimagesuntagged='docker images --filter "dangling=true" --quiet | \
+	xargs --no-run-if-empty -I{} docker rmi "{}"'
+
 alias mag-findcrlf='grep -IlPrUe "\r" .'
 alias mag-gitrebasesubl='EDITOR="subl -nw" git rebase --interactive'
 alias mag-shutdown='sudo shutdown now -P'
