@@ -38,3 +38,6 @@
 	mergenc = merge --no-commit --no-ff
 	mergesq = merge --squash
 	st = status --branch --short
+
+[includeIf "gitdir:~/path/to/work/"]
+	path = ~/.gitconfig-work
