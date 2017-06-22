@@ -38,6 +38,7 @@
 	mergenc = merge --no-commit --no-ff
 	mergesq = merge --squash
 	st = status --branch --short
+	yolo = commit -m 'Update'
 
 [includeIf "gitdir:~/path/to/work/"]
 	path = ~/.gitconfig-work
