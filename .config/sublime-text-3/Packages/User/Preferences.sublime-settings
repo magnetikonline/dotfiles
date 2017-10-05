@@ -20,7 +20,6 @@
 		"*.svg",
 		"*.woff"
 	],
-	"color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme",
 	"default_line_ending": "unix",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns": [
@@ -67,7 +66,7 @@
 	],
 	"show_line_endings": true,
 	"tab_completion": false,
-	"theme": "Flatland Dark.sublime-theme",
+	"theme": "Adaptive.sublime-theme",
 	"trim_trailing_white_space_on_save": true,
 	"word_wrap": false
 }

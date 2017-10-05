@@ -14,5 +14,5 @@ List of packages I'm using with Sublime Text 3:
 - SCSS
 	- [Current](https://github.com/P233/Syntax-highlighting-for-Sass/tree/3.0)
 	- [Previous](https://github.com/MarioRicalde/SCSS.tmbundle/tree/SublimeText2)
-- [Theme - Flatland](https://github.com/thinkpixellab/flatland)
+- [Theme - Flatland](https://github.com/thinkpixellab/flatland) (Unused for now)
 - [TodoReview](https://github.com/jonathandelgado/SublimeTodoReview)
