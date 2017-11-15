@@ -5,6 +5,11 @@
 umask 022
 
 
+# load SSH keys into agent
+find "$HOME/.ssh" -type f -name "id_rsa*" ! -name "*.pub" -print0 | \
+	xargs -I {} --null ssh-add "{}" >/dev/null 2>&1
+
+
 # colored shell prompt including Git branch details
 GIT_PS1_SHOWDIRTYSTATE="true"
 PS1='${debian_chroot:+($debian_chroot)}\[\033[00;32m\]\u\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]$(__git_ps1 " \[\033[00;95m\](%s)\[\033[00m\]")\$ '
