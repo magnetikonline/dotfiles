@@ -39,7 +39,7 @@ alias mag-dockernukecontainers='docker ps --filter "status=exited" --quiet | \
 alias mag-dockernukeimagesuntagged='docker images --filter "dangling=true" --quiet | \
 	xargs --no-run-if-empty --replace={} docker rmi "{}"'
 
-alias mag-findcrlf='grep -IlPrUe "\r" .'
+alias mag-findcrlf='grep --binary --binary-files without-match --files-with-matches --recursive $'\''\r'\'' .'
 alias mag-gitrebasesubl='EDITOR="subl -nw" git rebase --interactive'
 alias mag-shutdown='sudo shutdown now -P'
 alias mag-sysupdate='sudo apt update && sudo apt upgrade'
