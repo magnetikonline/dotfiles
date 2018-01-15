@@ -48,8 +48,8 @@
 		"*.css.map",
 		"*.sublime-project"
 	],
-	"font_face": "Ubuntu Mono",
-	"font_size": 9.0,
+	"font_face": "Input",
+	"font_size": 11.0,
 	"ignored_packages": [
 		"Vintage",
 		"SHS-Bourbon",
@@ -58,7 +58,9 @@
 		"SHS-Compass-Variables"
 	],
 	"ignored_words": [
-		"mixins"
+		"minification",
+		"mixins",
+		"symlink"
 	],
 	"indent_guide_options": [
 		"draw_active",
