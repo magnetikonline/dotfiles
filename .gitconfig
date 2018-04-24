@@ -14,15 +14,15 @@
 [diff]
 	tool = meld
 
+[fetch]
+	prune = true
+
 [grep]
 	extendedregexp = true
 	linenumber = true
 
 [push]
 	default = simple
-
-[fetch]
-	prune = true
 
 [alias]
 	adda = add --update :/
