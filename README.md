@@ -2,7 +2,7 @@
 
 Probably the only things of note here at the moment are:
 - Git core/aliases setup.
-- A few useful aliases in `~/.bashrcmagnetik`.
+- A few useful aliases in [`~/.bashrcmagnetik`](.bashrcmagnetik).
 - [Sublime Text 3](https://www.sublimetext.com/3) user settings.
 
 ## Editor font
