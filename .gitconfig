@@ -33,13 +33,13 @@
 	da = difftool -d
 	dac = difftool -d --cached
 	gr = grep --break --heading
-	lg = log --decorate=short --graph --pretty=format:'%C(red)%h%C(reset) %C(green)%s%C(reset) - %C(yellow)(%ar)%C(reset) %C(blue)<%an>%C(auto)%d'
+	lg = log --decorate=short --graph --pretty=format:\"%C(red)%h%C(reset) %C(green)%s%C(reset) - %C(yellow)(%ar)%C(reset) %C(blue)%C(bold)<%an>%C(auto)%d\"
 	lt = ls-tree -r --abbrev=6 --full-tree --long HEAD
 	mergenc = merge --no-commit --no-ff
 	mergesq = merge --squash
-	sl = stash list --pretty=format:'%C(red)%gd%C(reset) %C(green)%s%C(reset) - %C(yellow)(%ar)%C(reset)'
+	sl = stash list --pretty=format:\"%C(red)%gd%C(reset) %C(green)%s%C(reset) - %C(yellow)(%ar)%C(reset)\"
 	st = status --branch --short
-	yolo = commit -m 'Update'
+	yolo = commit -m \"Update\"
 
 [includeIf "gitdir:~/path/to/work/"]
 	path = ~/.gitconfig-work
