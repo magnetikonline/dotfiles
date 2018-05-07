@@ -20,6 +20,7 @@
 		"*.svg",
 		"*.woff"
 	],
+	"color_scheme": "Packages/Color Scheme - Default/Mariana.sublime-color-scheme",
 	"default_line_ending": "unix",
 	"ensure_newline_at_eof_on_save": true,
 	"file_exclude_patterns": [
@@ -48,7 +49,7 @@
 		"*.css.map",
 		"*.sublime-project"
 	],
-	"font_face": "Input",
+	"font_face": "Fira Code-Regular",
 	"font_size": 11.0,
 	"ignored_packages": [
 		"Vintage",
