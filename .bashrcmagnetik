@@ -31,7 +31,7 @@ alias ls='ls --color=auto --literal'
 
 # application shortcuts
 alias diff='git diff --no-index'
-alias dockviz='docker run --interactive --rm --tty --volume /var/run/docker.sock:/var/run/docker.sock nate/dockviz'
+alias dockviz='docker run --interactive --rm --tty --volume /run/docker.sock:/var/run/docker.sock:ro nate/dockviz'
 alias m='meld'
 alias n='nano'
 alias s='subl'
