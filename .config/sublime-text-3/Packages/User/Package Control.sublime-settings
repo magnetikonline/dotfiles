@@ -1,5 +1,6 @@
 {
 	"bootstrapped": true,
+	"ignore_vcs_packages": true,
 	"installed_packages": [
 		"Package Control"
 	]
