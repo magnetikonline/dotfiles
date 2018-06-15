@@ -21,12 +21,15 @@
 	extendedregexp = true
 	linenumber = true
 
+[pull]
+	ff = only
+
 [push]
 	default = simple
 
 [alias]
-	adda = add --update :/
-	adda-cw = -c interactive.diffFilter=\"git diff --color-words\" add --update :/
+	adda = add --update
+	adda-cw = -c interactive.diffFilter=\"git diff --color-words\" add --update
 	archive-tgz = archive -v --format=tgz --output=HEAD.tgz HEAD
 	archive-zip = archive -v --format=zip --output=HEAD.zip HEAD
 	ba = branch -avv
