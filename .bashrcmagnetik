@@ -1,6 +1,4 @@
-# ~/.bashrcmagnetik
 # called from ~/.bashrc as [ . "$HOME/.bashrcmagnetik" ]
-
 
 umask 022
 
@@ -24,12 +22,13 @@ if [[ $TERM =~ ^(xterm-color|.+-256color)$ ]]; then
 fi
 
 
-# AWS CLI command completion
+# AWS CLI tools completion
 complete -C /usr/local/bin/aws_completer aws
 
 
 # redefine ls to avoid single quotes in directory/file items with spaces
 alias ls='ls --color=auto --literal'
+alias ll='ls -o --all --classify'
 
 
 # application shortcuts
@@ -42,6 +41,8 @@ alias tigs='tig status'
 
 
 # utility commands
+alias mag-curlheader='curl --dump-header - --output /dev/null --silent'
+
 alias mag-fixfileperms='chmod -R a-rwx,a+rX,u+w . && \
 	find . -type f -name "*.sh" -print0 | xargs --no-run-if-empty --null --replace={} chmod 0744 "{}" && \
 	find . -type f \( -name "id_rsa" -or -name "*.id_rsa" \) -print0 | xargs --no-run-if-empty --null --replace={} chmod 0600 "{}"'
