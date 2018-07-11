@@ -3,8 +3,9 @@
 		"TODO": "TODO\\s*?:+ +(?P<todo>.*?)(?:\"|(?:\\s+(?:\\*/|-->|\\?>)))?$"
 	},
 	"exclude_folders": [
-		".git*",
-		"node_modules*"
+		".git/*",
+		"/node_modules/*",
+		"/vendor/*"
 	],
 	"exclude_files": [
 		"*.css",
