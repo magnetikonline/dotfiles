@@ -54,6 +54,6 @@ alias mag-dockernukeimagesuntagged='docker images --filter "dangling=true" --qui
 	xargs --no-run-if-empty --replace={} docker rmi "{}"'
 
 alias mag-findcrlf='grep --binary --binary-files without-match --files-with-matches --recursive $'\''\r'\'' .'
-alias mag-gitrebasesubl='EDITOR="subl -nw" git rebase --interactive'
+alias mag-gitrebasesubl='EDITOR="subl --new-window --wait" git rebase --interactive'
 alias mag-shutdown='sudo shutdown now -P'
 alias mag-sysupdate='sudo apt update && sudo apt upgrade'
