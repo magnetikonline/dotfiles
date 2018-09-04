@@ -17,8 +17,10 @@ Probably the only things of note here at the moment are:
 - [Preview configured font stack](http://input.fontbureau.com/preview/?size=14&language=python&theme=solarized-dark&family=InputMono&width=200&weight=400&line-height=1.1&a=0&g=0&i=0&l=0&zero=0&asterisk=0&braces=0&preset=default&customize=please).
 
 ## Sublime Text 3 installed packages
-List of packages I'm using with Sublime Text 3:
+Packages currently used with Sublime Text 3:
+- [AlignTab](https://github.com/randy3k/AlignTab)
 - [GitGutter](https://github.com/jisaacks/GitGutter)
+- [Gofmt](https://github.com/noonat/sublime-gofmt)
 - [LineEndings](https://github.com/titoBouzout/LineEndings)
 - [Nginx](https://github.com/brandonwamboldt/sublime-nginx)
 - [SCSS](https://github.com/P233/Syntax-highlighting-for-Sass)
