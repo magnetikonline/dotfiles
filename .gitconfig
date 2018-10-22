@@ -33,6 +33,7 @@
 	archive-tgz = archive -v --format=tgz --output=HEAD.tgz HEAD
 	archive-zip = archive -v --format=zip --output=HEAD.zip HEAD
 	ba = branch -avv
+	bv = branch -vv
 	da = difftool -d
 	dac = difftool -d --cached
 	gr = grep --break --heading
