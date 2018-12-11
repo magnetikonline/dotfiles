@@ -19,6 +19,7 @@ Probably the only things of note here at the moment are:
 ## Sublime Text 3 installed packages
 Packages currently used with Sublime Text 3:
 - [AlignTab](https://github.com/randy3k/AlignTab)
+- [EditorConfig](https://github.com/sindresorhus/editorconfig-sublime)
 - [GitGutter](https://github.com/jisaacks/GitGutter)
 - [Gofmt](https://github.com/noonat/sublime-gofmt)
 - [LineEndings](https://github.com/titoBouzout/LineEndings)
