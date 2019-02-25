@@ -21,6 +21,9 @@
 	extendedregexp = true
 	linenumber = true
 
+[instaweb]
+	httpd = python
+
 [pull]
 	ff = only
 
