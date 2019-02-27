@@ -35,10 +35,10 @@
 	adda-cw = -c interactive.diffFilter=\"git diff --color-words\" add --update
 	archive-tgz = archive -v --format=tgz --output=HEAD.tgz HEAD
 	archive-zip = archive -v --format=zip --output=HEAD.zip HEAD
-	ba = branch -avv
-	bv = branch -vv
-	da = difftool -d
-	dac = difftool -d --cached
+	ba = branch --all --verbose --verbose
+	bv = branch --verbose --verbose
+	da = difftool --dir-diff
+	dac = difftool --cached --dir-diff
 	gr = grep --break --heading
 	lg = log --decorate=short --graph --pretty=format:\"%C(red)%h%C(reset) %C(green)%s%C(reset) - %C(yellow)(%ar)%C(reset) %C(blue)%C(bold)<%an>%C(auto)%d\"
 	lt = ls-tree -r --abbrev=6 --full-tree --long HEAD
