@@ -52,11 +52,6 @@ alias tigs='tig status'
 
 # utility commands
 alias mag-curlheader='curl --dump-header - --output /dev/null --silent'
-
-alias mag-fixfileperms='chmod -R a-rwx,a+rX,u+w . && \
-	find . -type f -name "*.sh" -print0 | xargs --no-run-if-empty --null --replace={} chmod 0744 "{}" && \
-	find . -type f \( -name "id_rsa" -or -name "*.id_rsa" \) -print0 | xargs --no-run-if-empty --null --replace={} chmod 0600 "{}"'
-
 alias mag-docker-nukecontainers='docker ps --filter "status=exited" --quiet | \
 	xargs --no-run-if-empty --replace={} docker rm "{}"'
 
@@ -65,6 +60,10 @@ alias mag-docker-nukeimagesuntagged='docker images --filter "dangling=true" --qu
 
 alias mag-docker-pss='docker ps --all --format "table {{.ID}}\t{{.Names}}\t{{.Image}}\t{{.Status}}" | (read -r;echo "$REPLY";sort -k2)'
 alias mag-findcrlf='grep --binary --binary-files without-match --files-with-matches --recursive $'\''\r'\'' .'
+alias mag-fixfileperms='chmod -R a-rwx,a+rX,u+w . && \
+	find . -type f -name "*.sh" -print0 | xargs --no-run-if-empty --null --replace={} chmod 0744 "{}" && \
+	find . -type f \( -name "id_rsa" -or -name "*.id_rsa" \) -print0 | xargs --no-run-if-empty --null --replace={} chmod 0600 "{}"'
+
 alias mag-gitrebasesubl='EDITOR="subl --new-window --wait" git rebase --interactive'
 alias mag-openssldetail='openssl x509 -noout -text -in'
 alias mag-shutdown='sudo shutdown --poweroff now'
