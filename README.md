@@ -1,16 +1,18 @@
 # My dotfiles
 
-Probably the only things of note here at the moment are:
-- Git core/aliases setup.
-- A few useful aliases in [`~/.bashrcmagnetik`](.bashrcmagnetik).
+Things of note:
+- `.gitconfig` [aliases](.gitconfig#L34-L50).
+- Some useful Bash aliases (for me at least) in [`~/.bashrcmagnetik`](.bashrcmagnetik).
+- [Visual Studio Code](https://code.visualstudio.com/) user settings.
 - [Sublime Text 3](https://www.sublimetext.com/3) user settings.
 
 ## Editor font
 
-
 ### Current
 - [FiraCode](https://github.com/tonsky/FiraCode).
-- As configured with [Sublime Text 3](.config/sublime-text-3/Packages/User/Preferences.sublime-settings#L52-L53).
+- Configured with:
+	- [Visual Studio Code](.config/Code/User/settings.json#L5-L7).
+	- [Sublime Text 3](.config/sublime-text-3/Packages/User/Preferences.sublime-settings#L52-L56).
 
 ### Previous
 - [Input](http://input.fontbureau.com/).
