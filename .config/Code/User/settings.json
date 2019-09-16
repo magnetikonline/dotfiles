@@ -17,7 +17,9 @@
 	"explorer.openEditors.visible": 0,
 	"files.exclude": {
 		".vscode/": true,
+		"**/__pycache__/": true,
 
+		"**/*.css.map": true,
 		"**/*.pyc": true,
 	},
 	"files.insertFinalNewline": true,
