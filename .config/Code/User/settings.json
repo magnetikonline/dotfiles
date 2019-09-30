@@ -34,6 +34,16 @@
 	"window.zoomLevel": 0,
 
 
+	"go.buildOnSave": "off",
+	"go.enableCodeLens": {
+		"references": false,
+		"runtest": false
+	},
+	"go.formatTool": "gofmt",
+	"go.lintOnSave": "off",
+	"go.useLanguageServer": true,
+	"go.vetOnSave": "off",
+
 	"html.autoClosingTags": false,
 
 	"javascript.format.insertSpaceAfterCommaDelimiter": false,
