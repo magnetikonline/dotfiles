@@ -28,10 +28,11 @@
 	"keyboard.dispatch": "keyCode",
 	"terminal.integrated.fontFamily": "Fira Code",
 	"terminal.integrated.fontSize": 11,
+	"window.zoomLevel": 0,
 	"workbench.activityBar.visible": false,
 	"workbench.colorTheme": "Monokai",
+	"workbench.editor.revealIfOpen": true,
 	"workbench.startupEditor": "newUntitledFile",
-	"window.zoomLevel": 0,
 
 
 	"go.buildOnSave": "off",
