@@ -12,6 +12,7 @@
 	ui = true
 
 [diff]
+	noprefix = true
 	tool = meld
 
 [fetch]
