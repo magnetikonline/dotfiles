@@ -32,6 +32,10 @@ if [[ $TERM =~ ^(xterm-color|.+-256color)$ ]]; then
 fi
 
 
+# install all pip packages to $HOME/.local
+export PIP_USER="1"
+
+
 # AWS CLI tools completion
 complete -C /usr/local/bin/aws_completer aws
 
