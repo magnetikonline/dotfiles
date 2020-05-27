@@ -40,12 +40,13 @@
 	bv = branch --verbose --verbose
 	da = difftool --dir-diff
 	dac = difftool --cached --dir-diff
-	diffl = diff --color-words=.
+	diffc = diff --color-words=.
 	gr = grep --break --heading
 	lg = log --decorate=short --graph --pretty=format:\"%C(red)%h%C(reset) %C(green)%s%C(reset) - %C(yellow)(%ar)%C(reset) %C(blue)%C(bold)<%an>%C(auto)%d\"
 	lt = ls-tree -r --abbrev=6 --full-tree --long HEAD
 	mergenc = merge --no-commit --no-ff
 	mergesq = merge --squash
+	showc = show --color-words=.
 	showf = show --name-only
 	sl = stash list --pretty=format:\"%C(red)%gd%C(reset) %C(green)%s%C(reset) - %C(yellow)(%ar)%C(reset)\"
 	st = status --branch --short
