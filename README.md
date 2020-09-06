@@ -16,7 +16,7 @@ Things of note:
 
 ### Previous
 - [Input](http://input.fontbureau.com/).
-- [Preview configured font stack](http://input.fontbureau.com/preview/?size=14&language=python&theme=solarized-dark&family=InputMono&width=200&weight=400&line-height=1.1&a=0&g=0&i=0&l=0&zero=0&asterisk=0&braces=0&preset=default&customize=please).
+	- [Preview configured font stack](http://input.fontbureau.com/preview/?size=14&language=python&theme=solarized-dark&family=InputMono&width=200&weight=400&line-height=1.1&a=0&g=0&i=0&l=0&zero=0&asterisk=0&braces=0&preset=default&customize=please).
 
 ## Visual Studio Code extensions
 
