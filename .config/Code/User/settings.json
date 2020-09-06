@@ -11,10 +11,11 @@
 		"other": false,
 		"strings": false,
 	},
-	"editor.renderWhitespace": "selection",
 	"editor.tabSize": 4,
+
 	"explorer.decorations.colors": false,
 	"explorer.openEditors.visible": 0,
+
 	"files.exclude": {
 		".vscode/": true,
 		"**/__pycache__/": true,
@@ -25,10 +26,15 @@
 	"files.insertFinalNewline": true,
 	"files.trimFinalNewlines": true,
 	"files.trimTrailingWhitespace": true,
+	"outline.showModules": false,
+	"outline.showVariables": false,
+
 	"keyboard.dispatch": "keyCode",
 	"terminal.integrated.fontFamily": "JetBrains Mono",
 	"terminal.integrated.fontSize": 11,
+
 	"window.zoomLevel": 0,
+
 	"workbench.activityBar.visible": false,
 	"workbench.colorTheme": "Monokai",
 	"workbench.editor.revealIfOpen": true,
