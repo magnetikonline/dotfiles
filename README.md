@@ -9,12 +9,13 @@ Things of note:
 ## Editor font
 
 ### Current
-- [FiraCode](https://github.com/tonsky/FiraCode).
+- [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono).
 - Configured with:
 	- [Visual Studio Code](.config/Code/User/settings.json#L5-L7).
 	- [Sublime Text 3](.config/sublime-text-3/Packages/User/Preferences.sublime-settings#L52-L56).
 
 ### Previous
+- [FiraCode](https://github.com/tonsky/FiraCode).
 - [Input](http://input.fontbureau.com/).
 	- [Preview configured font stack](http://input.fontbureau.com/preview/?size=14&language=python&theme=solarized-dark&family=InputMono&width=200&weight=400&line-height=1.1&a=0&g=0&i=0&l=0&zero=0&asterisk=0&braces=0&preset=default&customize=please).
 

@@ -49,7 +49,7 @@
 		"*.css.map",
 		"*.sublime-project"
 	],
-	"font_face": "Fira Code",
+	"font_face": "JetBrains Mono",
 	"font_options": [
 		"subpixel_antialias"
 	],
