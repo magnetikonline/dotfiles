@@ -3,6 +3,7 @@
 	name = Peter Mescalchin
 
 [core]
+	attributesfile = ~/.gitattributes-global
 	autocrlf = input
 	excludesfile = ~/.gitignore-global
 	pager = less --tabs 4
