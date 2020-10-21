@@ -1,7 +1,12 @@
 # My dotfiles
+- [Editor font](#editor-font)
+	- [Current](#current)
+	- [Previous](#previous)
+- [Visual Studio Code extensions](#visual-studio-code-extensions)
+- [Sublime Text 3 packages](#sublime-text-3-packages)
 
-Things of note:
-- `.gitconfig` [aliases](.gitconfig#L34-L50).
+Highlights:
+- `.gitconfig` [aliases](.gitconfig#L35-L55).
 - Some useful Bash aliases (for me at least) in [`~/.bashrcmagnetik`](.bashrcmagnetik).
 - [Visual Studio Code](https://code.visualstudio.com/) user settings.
 - [Sublime Text 3](https://www.sublimetext.com/3) user settings.
