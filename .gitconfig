@@ -4,7 +4,7 @@
 
 [core]
 	autocrlf = input
-	excludesfile = ~/.gitignoreglobal
+	excludesfile = ~/.gitignore-global
 	pager = less --tabs 4
 	untrackedcache = true
 
