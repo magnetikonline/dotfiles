@@ -26,10 +26,12 @@
 	"files.insertFinalNewline": true,
 	"files.trimFinalNewlines": true,
 	"files.trimTrailingWhitespace": true,
+
+	"keyboard.dispatch": "keyCode",
+
 	"outline.showModules": false,
 	"outline.showVariables": false,
 
-	"keyboard.dispatch": "keyCode",
 	"terminal.integrated.fontFamily": "JetBrains Mono",
 	"terminal.integrated.fontSize": 11,
 
@@ -59,5 +61,9 @@
 
 	"javascript.format.insertSpaceAfterCommaDelimiter": false,
 
-	"python.linting.enabled": false,
+	"python.formatting.provider": "black",
+	"python.languageServer": "Pylance",
+	"python.linting.enabled": true,
+	"python.linting.pylintEnabled": true,
+	"python.pythonPath": "/usr/local/bin/python3",
 }
