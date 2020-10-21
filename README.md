@@ -23,9 +23,14 @@ Things of note:
 
 ```sh
 $ code --list-extensions --show-versions
-EditorConfig.EditorConfig@0.13.0
-ms-azuretools.vscode-docker@0.7.0
-ms-python.python@2019.8.30787
+darkriszty.markdown-table-prettify@3.0.0
+EditorConfig.EditorConfig@0.15.1
+golang.go@0.17.2
+ms-azuretools.vscode-docker@1.7.0
+ms-python.python@2020.9.114305
+ms-python.vscode-pylance@2020.10.1
+streetsidesoftware.code-spell-checker@1.9.2
+wayou.vscode-todo-highlight@1.0.4
 ```
 
 ## Sublime Text 3 packages
