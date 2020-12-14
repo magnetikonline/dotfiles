@@ -37,7 +37,7 @@
 	adda-cw = -c interactive.diffFilter=\"git diff --color-words\" add --update
 	archive-tgz = archive -v --format=tgz --output=HEAD.tgz HEAD
 	archive-zip = archive -v --format=zip --output=HEAD.zip HEAD
-	ba = branch --all --verbose --verbose
+	ba = branch --all --list --verbose --verbose
 	bv = branch --verbose --verbose
 	da = difftool --dir-diff
 	dac = difftool --cached --dir-diff
@@ -52,7 +52,7 @@
 	showf = show --name-only
 	sl = stash list --pretty=format:\"%C(red)%gd%C(reset) %C(green)%s%C(reset) - %C(yellow)(%ar)%C(reset)\"
 	st = status --branch --short
-	yolo = commit -m \"Update\"
+	yolo = commit --message=\"Update\"
 
 [includeIf "gitdir:~/path/to/work/"]
 	path = ~/.gitconfig-work
