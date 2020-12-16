@@ -1,4 +1,5 @@
 # My dotfiles
+
 - [Editor font](#editor-font)
 	- [Current](#current)
 	- [Previous](#previous)
@@ -14,12 +15,14 @@ Highlights:
 ## Editor font
 
 ### Current
+
 - [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono).
 - Configured with:
 	- [Visual Studio Code](.config/Code/User/settings.json#L5-L7).
 	- [Sublime Text 3](.config/sublime-text-3/Packages/User/Preferences.sublime-settings#L52-L56).
 
 ### Previous
+
 - [FiraCode](https://github.com/tonsky/FiraCode).
 - [Input](http://input.fontbureau.com/).
 	- [Preview configured font stack](http://input.fontbureau.com/preview/?size=14&language=python&theme=solarized-dark&family=InputMono&width=200&weight=400&line-height=1.1&a=0&g=0&i=0&l=0&zero=0&asterisk=0&braces=0&preset=default&customize=please).
@@ -28,17 +31,20 @@ Highlights:
 
 ```sh
 $ code --list-extensions --show-versions
-darkriszty.markdown-table-prettify@3.0.0
-EditorConfig.EditorConfig@0.15.1
-golang.go@0.17.2
-ms-azuretools.vscode-docker@1.7.0
-ms-python.python@2020.9.114305
-ms-python.vscode-pylance@2020.10.1
-streetsidesoftware.code-spell-checker@1.9.2
+darkriszty.markdown-table-prettify@3.2.0
+EditorConfig.EditorConfig@0.16.4
+golang.go@0.19.1
+hashicorp.terraform@2.3.0
+ms-azuretools.vscode-docker@1.9.0
+ms-python.python@2020.12.424452561
+ms-python.vscode-pylance@2020.12.2
+ms-toolsai.jupyter@2020.12.414227025
+streetsidesoftware.code-spell-checker@1.10.2
 wayou.vscode-todo-highlight@1.0.4
 ```
 
 ## Sublime Text 3 packages
+
 - [AlignTab](https://github.com/randy3k/AlignTab)
 - [EditorConfig](https://github.com/sindresorhus/editorconfig-sublime)
 - [GitGutter](https://github.com/jisaacks/GitGutter)
