@@ -1,4 +1,6 @@
 {
+	"breadcrumbs.symbolSortOrder": "position",
+
 	"editor.autoClosingBrackets": "never",
 	"editor.autoClosingQuotes": "never",
 	"editor.autoSurround": "never",
@@ -6,11 +8,7 @@
 	"editor.fontLigatures": true,
 	"editor.fontSize": 11,
 	"editor.insertSpaces": false,
-	"editor.quickSuggestions": {
-		"comments": false,
-		"other": false,
-		"strings": false,
-	},
+	"editor.quickSuggestions": false,
 	"editor.tabSize": 4,
 
 	"explorer.decorations.colors": false,
@@ -60,6 +58,7 @@
 	"html.autoClosingTags": false,
 
 	"javascript.format.insertSpaceAfterCommaDelimiter": false,
+	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
 
 	"python.analysis.typeCheckingMode": "basic",
 	"python.formatting.provider": "black",
@@ -67,4 +66,9 @@
 	"python.linting.enabled": true,
 	"python.linting.pylintEnabled": true,
 	"python.pythonPath": "/usr/local/bin/python3",
+	"python.showStartPage": false,
+
+	"[terraform]": {
+		"editor.formatOnSave": true
+	},
 }
