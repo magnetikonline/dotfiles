@@ -9,6 +9,9 @@
 	pager = less --tabs 4
 	untrackedcache = true
 
+[init]
+	defaultBranch = main
+
 [color]
 	ui = true
 
