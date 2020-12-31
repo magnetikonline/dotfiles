@@ -45,10 +45,12 @@ export PIP_USER="1"
 complete -C /usr/local/bin/aws_completer aws
 
 
+# aliases
+unalias -a
+
 # redefine ls to avoid single quotes in directory/file items with spaces
 alias ls='ls --color=auto --literal'
 alias ll='ls -o --all --classify'
-
 
 # application shortcuts
 alias diff='git diff --no-index'
@@ -57,7 +59,6 @@ alias m='meld'
 alias n='nano'
 alias s='subl'
 alias tigs='tig status'
-
 
 # utility commands
 alias mag-curlheader='curl --dump-header - --output /dev/null --silent'
