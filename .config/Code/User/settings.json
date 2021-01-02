@@ -19,7 +19,7 @@
 		"**/__pycache__/": true,
 
 		"**/*.css.map": true,
-		"**/*.pyc": true,
+		"**/*.pyc": true
 	},
 	"files.insertFinalNewline": true,
 	"files.trimFinalNewlines": true,
@@ -44,7 +44,7 @@
 	"go.buildOnSave": "off",
 	"go.enableCodeLens": {
 		"references": false,
-		"runtest": false,
+		"runtest": false
 	},
 	"go.lintOnSave": "package",
 	"go.lintTool": "golangci-lint",
@@ -70,5 +70,5 @@
 
 	"[terraform]": {
 		"editor.formatOnSave": true
-	},
+	}
 }
