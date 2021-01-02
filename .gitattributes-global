@@ -7,3 +7,4 @@
 *.php	diff=php
 *.py	diff=python
 *.rb	diff=ruby
+*.sh	diff=bash
