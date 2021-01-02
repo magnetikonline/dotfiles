@@ -7,8 +7,8 @@
 - [Sublime Text 3 packages](#sublime-text-3-packages)
 
 Highlights:
-- `.gitconfig` [aliases](.gitconfig#L35-L55).
-- Some useful Bash aliases (for me at least) in [`~/.bashrcmagnetik`](.bashrcmagnetik).
+- `.gitconfig` [aliases](.gitconfig#L38-L58).
+- Some useful Bash aliases (for me at least) in [`~/.bashrcmagnetik`](.bashrcmagnetik#L48-L80).
 - [Visual Studio Code](https://code.visualstudio.com/) user settings.
 - [Sublime Text 3](https://www.sublimetext.com/3) user settings.
 
@@ -18,7 +18,7 @@ Highlights:
 
 - [JetBrains Mono](https://github.com/JetBrains/JetBrainsMono).
 - Configured with:
-	- [Visual Studio Code](.config/Code/User/settings.json#L5-L7).
+	- [Visual Studio Code](.config/Code/User/settings.json#L7-L9).
 	- [Sublime Text 3](.config/sublime-text-3/Packages/User/Preferences.sublime-settings#L52-L56).
 
 ### Previous
