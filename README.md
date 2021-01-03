@@ -1,14 +1,19 @@
-# My dotfiles
+# dotfiles - Linux
 
+- [Highlights](#highlights)
 - [Editor font](#editor-font)
 	- [Current](#current)
 	- [Previous](#previous)
 - [Visual Studio Code extensions](#visual-studio-code-extensions)
 - [Sublime Text 3 packages](#sublime-text-3-packages)
 
-Highlights:
-- `.gitconfig` [aliases](.gitconfig#L38-L58).
-- Some useful Bash aliases (for me at least) in [`~/.bashrcmagnetik`](.bashrcmagnetik#L48-L80).
+## Highlights
+
+- `.gitconfig`
+	- [aliases](.gitconfig#L38-L59).
+	- Work/personal [profile switching](.gitconfig#L61-L62) based on repository path.
+	- [userdiff](.gitattributes-global) config.
+- Some useful Bash aliases in [`~/.bashrcmagnetik`](.bashrcmagnetik#L48-L80).
 - [Visual Studio Code](https://code.visualstudio.com/) user settings.
 - [Sublime Text 3](https://www.sublimetext.com/3) user settings.
 

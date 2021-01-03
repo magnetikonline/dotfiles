@@ -16,10 +16,15 @@ GIT_PS1_SHOWUPSTREAM="auto"
 PS1='${debian_chroot:+($debian_chroot)}\[\033[32m\]\u\[\033[00m\]:\[\033[94m\]\w\[\033[00m\]$(__git_ps1 "\[\033[35m\]|\[\033[95m\]%s\[\033[00m\]")\$ '
 
 
-# default editor, ignore duplicate commands in Bash history
+# if interactive shell, set working directory as xterm title
+if [[ $TERM =~ ^(xterm-color|.+-256color)$ ]]; then
+	PS1="$PS1\[\033]0;\w\007\]"
+fi
+
+
+# environment variables
 export EDITOR="/bin/nano"
 export HISTCONTROL="ignoredups"
-
 
 # less pager colors
 export LESS_TERMCAP_mb=$'\e[32m' # blink
@@ -30,14 +35,7 @@ export LESS_TERMCAP_se=$'\e[00m'
 export LESS_TERMCAP_us=$'\e[04;31m' # underline
 export LESS_TERMCAP_ue=$'\e[00m'
 
-
-# if interactive shell, set working directory as xterm title
-if [[ $TERM =~ ^(xterm-color|.+-256color)$ ]]; then
-	PS1="$PS1\[\033]0;\w\007\]"
-fi
-
-
-# install all pip packages to $HOME/.local
+# install pip packages to $HOME/.local
 export PIP_USER="1"
 
 
