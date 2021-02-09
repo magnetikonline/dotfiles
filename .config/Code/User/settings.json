@@ -40,6 +40,7 @@
 
 	"workbench.activityBar.visible": false,
 	"workbench.colorTheme": "Monokai",
+	"workbench.editor.decorations.badges": true,
 	"workbench.editor.revealIfOpen": true,
 	"workbench.startupEditor": "newUntitledFile",
 
@@ -55,7 +56,6 @@
 		"--enable",
 		"goconst,goimports,whitespace"
 	],
-	"go.useLanguageServer": true,
 	"go.vetOnSave": "off",
 
 	"html.autoClosingTags": false,
