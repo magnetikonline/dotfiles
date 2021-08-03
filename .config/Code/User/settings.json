@@ -76,4 +76,8 @@
 	"[terraform]": {
 		"editor.formatOnSave": true
 	},
+
+	"[terraform-vars]": {
+		"editor.formatOnSave": true
+	},
 }
