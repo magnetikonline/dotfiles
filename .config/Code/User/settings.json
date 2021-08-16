@@ -9,7 +9,7 @@
 	"editor.fontSize": 11,
 	"editor.insertSpaces": false,
 	"editor.quickSuggestions": false,
-	"editor.tabSize": 4,
+	"editor.tabSize": 2,
 
 	"explorer.decorations.colors": false,
 	"explorer.openEditors.visible": 0,
@@ -51,7 +51,7 @@
 	"go.lintTool": "golangci-lint",
 	"go.lintFlags": [
 		"--enable",
-		"exportloopref,goconst,goimports,unconvert,whitespace"
+		"exportloopref,goconst,goimports,unconvert,whitespace",
 	],
 	"go.vetOnSave": "off",
 
