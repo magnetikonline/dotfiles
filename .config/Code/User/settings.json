@@ -9,7 +9,11 @@
 	"editor.fontSize": 11,
 	"editor.guides.bracketPairs": true,
 	"editor.insertSpaces": false,
-	"editor.quickSuggestions": false,
+	"editor.quickSuggestions": {
+		"comments": false,
+		"other": false,
+		"strings": false,
+	},
 	"editor.tabSize": 2,
 
 	"explorer.decorations.colors": false,
