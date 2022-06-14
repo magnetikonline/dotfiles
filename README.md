@@ -36,18 +36,16 @@
 
 ```sh
 $ code --list-extensions --show-versions
-darkriszty.markdown-table-prettify@3.4.0
+darkriszty.markdown-table-prettify@3.6.0
 EditorConfig.EditorConfig@0.16.4
-golang.go@0.27.1
-hashicorp.terraform@2.14.0
-ms-azuretools.vscode-docker@1.16.0
-ms-python.python@2021.8.1105858891
-ms-python.vscode-pylance@2021.8.1
-ms-toolsai.jupyter@2021.8.1236758218
-PKief.material-icon-theme@4.9.0
-streetsidesoftware.code-spell-checker@1.10.2
+golang.go@0.33.1
+hashicorp.terraform@2.23.0
+ms-azuretools.vscode-docker@1.22.0
+ms-python.python@2022.8.0
+ms-python.vscode-pylance@2022.6.10
+PKief.material-icon-theme@4.18.1
+streetsidesoftware.code-spell-checker@2.2.4
 william-voyek.vscode-nginx@0.7.2
-wayou.vscode-todo-highlight@1.0.4
 ```
 
 ## Sublime Text 3 packages
