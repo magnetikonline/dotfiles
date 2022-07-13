@@ -78,7 +78,7 @@
 
 	"[python]": {
 		"editor.formatOnPaste": false,
-		"editor.formatOnSaveMode": "file"
+		"editor.formatOnSaveMode": "file",
 	},
 
 	"scss.format.enable": true,
@@ -87,10 +87,20 @@
 	"scss.format.spaceAroundSelectorSeparator": true,
 
 	"[terraform]": {
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
 	},
 
 	"[terraform-vars]": {
-		"editor.formatOnSave": true
+		"editor.formatOnSave": true,
+	},
+
+	"redhat.telemetry.enabled": false,
+	"yaml.completion": false,
+	"yaml.format.singleQuote": true,
+	"yaml.schemaStore.enable": false,
+	"yaml.validate": true,
+
+	"[yaml]": {
+		"editor.formatOnSave": true,
 	},
 }
