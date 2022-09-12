@@ -67,6 +67,7 @@ alias mag-docker-nukeimagesuntagged='docker images --filter "dangling=true" --qu
 	xargs --no-run-if-empty --replace={} docker rmi "{}"'
 
 alias mag-docker-pss='docker ps --all --format "table {{.ID}}\t{{.Names}}\t{{.Image}}\t{{.Status}}" | (read -r;echo "$REPLY";sort -k2)'
+alias mag-eslint='npx eslint .'
 alias mag-findcrlf='grep --binary --binary-files without-match --files-with-matches --recursive $'\''\r'\'' .'
 alias mag-fixfileperms='chmod -R a-rwx,a+rX,u+w . && \
 	find . -type f -name "*.sh" -print0 | xargs --no-run-if-empty --null --replace={} chmod 0744 "{}" && \
