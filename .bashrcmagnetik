@@ -73,7 +73,7 @@ alias mag-fixfileperms='chmod -R a-rwx,a+rX,u+w . && \
 	find . -type f -name "*.sh" -print0 | xargs --no-run-if-empty --null --replace={} chmod 0744 "{}" && \
 	find . -type f \( -name "id_rsa" -or -name "*.id_rsa" \) -print0 | xargs --no-run-if-empty --null --replace={} chmod 0600 "{}"'
 
-alias mag-fileextlist='find . -name .git -prune -o -type f -name "*.*" | sed "s/.*\.//" | sort --unique'
+alias mag-fileextlist='find . \( -name .git -prune \) -o \( -type f -name "*.*" \) | sed --regexp-extended "s/^.+\.//" | sort --unique'
 alias mag-openssldetail='openssl x509 -noout -text -in'
 alias mag-shutdown='sudo shutdown --poweroff now'
 alias mag-sysupdate='sudo apt update && sudo apt upgrade'
