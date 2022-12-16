@@ -50,7 +50,7 @@ unalias -a
 alias ls='ls --color=auto --literal'
 alias ll='ls -o --all --classify'
 
-# application shortcuts
+# aliases - application shortcuts
 alias diff='git diff --no-index'
 alias dockviz='docker run --interactive --rm --tty --volume /run/docker.sock:/var/run/docker.sock:ro nate/dockviz'
 alias m='meld'
@@ -58,7 +58,7 @@ alias n='nano'
 alias s='subl'
 alias tigs='tig status'
 
-# utility commands
+# aliases - utility commands
 alias mag-curlheader='curl --dump-header - --output /dev/null --silent'
 alias mag-docker-nukecontainers='docker ps --filter "status=exited" --quiet | \
 	xargs --no-run-if-empty --replace={} docker rm "{}"'
