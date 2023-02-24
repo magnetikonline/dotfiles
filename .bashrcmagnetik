@@ -35,6 +35,7 @@ export LESS_TERMCAP_se=$'\e[00m'
 export LESS_TERMCAP_us=$'\e[04;31m' # underline
 export LESS_TERMCAP_ue=$'\e[00m'
 
+# Python
 # install pip packages to $HOME/.local
 export PIP_USER="1"
 
@@ -59,6 +60,12 @@ alias s='subl'
 alias tigs='tig status'
 
 # aliases - utility commands
+alias mag-aws-accountalias='aws iam list-account-aliases --output text --query AccountAliases'
+alias mag-aws-cachedrop='rm "$HOME/.aws/cli/cache/"*.json'
+alias mag-aws-whoami='(
+aws sts get-caller-identity | jq;echo
+aws iam list-account-aliases --output text --query AccountAliases
+)'
 alias mag-curlheader='curl --dump-header - --output /dev/null --silent'
 alias mag-docker-nukecontainers='docker ps --filter "status=exited" --quiet | \
 	xargs --no-run-if-empty --replace={} docker rm "{}"'
@@ -74,6 +81,10 @@ alias mag-fixfileperms='chmod -R a-rwx,a+rX,u+w . && \
 	find . -type f \( -name "id_rsa" -or -name "*.id_rsa" \) -print0 | xargs --no-run-if-empty --null --replace={} chmod 0600 "{}"'
 
 alias mag-fileextlist='find . \( -name .git -prune \) -o \( -type f -name "*.*" \) | sed --regexp-extended "s/^.+\.//" | sort --unique'
+alias mag-golangcleanall='go clean -cache -modcache'
+alias mag-gpgkeyslist='gpg --list-keys --keyid-format long'
+alias mag-jpgstripexif='jhead -purejpg'
 alias mag-openssldetail='openssl x509 -noout -text -in'
 alias mag-shutdown='sudo shutdown --poweroff now'
+alias mag-sshgenpublic='ssh-keygen -yf'
 alias mag-sysupdate='sudo apt update && sudo apt upgrade'
