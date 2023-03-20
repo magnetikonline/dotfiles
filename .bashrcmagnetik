@@ -81,6 +81,7 @@ alias mag-fixfileperms='chmod -R a-rwx,a+rX,u+w . && \
 	find . -type f \( -name "id_rsa" -or -name "*.id_rsa" \) -print0 | xargs --no-run-if-empty --null --replace={} chmod 0600 "{}"'
 
 alias mag-fileextlist='find . \( -name .git -prune \) -o \( -type f -name "*.*" \) | sed --regexp-extended "s/^.+\.//" | sort --unique'
+alias mag-gitroot='cd "$(git rev-parse --show-toplevel)"'
 alias mag-golangcleanall='go clean -cache -modcache'
 alias mag-gpgkeyslist='gpg --list-keys --keyid-format long'
 alias mag-jpgstripexif='jhead -purejpg'
