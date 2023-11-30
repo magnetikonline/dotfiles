@@ -10,9 +10,9 @@
 	"editor.guides.bracketPairs": true,
 	"editor.insertSpaces": false,
 	"editor.quickSuggestions": {
-		"comments": false,
-		"other": false,
-		"strings": false,
+		"comments": "off",
+		"other": "off",
+		"strings": "off",
 	},
 	"editor.stickyScroll.enabled": true,
 	"editor.tabSize": 2,
@@ -44,7 +44,7 @@
 
 	"window.zoomLevel": 0,
 
-	"workbench.activityBar.visible": false,
+	"workbench.activityBar.location": "top",
 	"workbench.colorTheme": "Monokai",
 	"workbench.editor.decorations.colors": false,
 	"workbench.editor.pinnedTabsOnSeparateRow": true,
