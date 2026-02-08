@@ -1,6 +1,8 @@
 {
 	"breadcrumbs.symbolSortOrder": "position",
 
+	"chat.disableAIFeatures": true,
+
 	"editor.autoClosingBrackets": "never",
 	"editor.autoClosingQuotes": "never",
 	"editor.autoSurround": "never",
@@ -46,6 +48,7 @@
 	"workbench.activityBar.location": "top",
 	"workbench.colorTheme": "Default Dark Modern",
 	"workbench.editor.decorations.colors": false,
+	"workbench.editor.empty.hint": "hidden",
 	"workbench.editor.pinnedTabsOnSeparateRow": true,
 	"workbench.editor.revealIfOpen": true,
 	"workbench.iconTheme": "material-icon-theme",
